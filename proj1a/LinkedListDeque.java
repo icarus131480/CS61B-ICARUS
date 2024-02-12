@@ -72,4 +72,9 @@ public class LinkedListDeque <T>{
         }
         return currentNode.item;
     }
+    public T getRecursive(int index){
+        if (sentinel==last || index+1>size){return null;}
+        
+        return null;
+    }
 }
